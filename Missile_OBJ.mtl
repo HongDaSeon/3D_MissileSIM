@@ -1,0 +1,15 @@
+# Blender MTL File: 'untitled.blend'
+# Material Count: 1
+
+newmtl Material_72
+Ns 900.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.498039 0.498039 0.498039
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\hun\\Desktop\\Missile.fbm\\294.png
+map_Ks C:\\Users\\hun\\Desktop\\Missile.fbm\\298.png
+map_d C:\\Users\\hun\\Desktop\\Missile.fbm\\294.png
