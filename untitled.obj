@@ -1,6 +1,6 @@
 # Blender v2.90.1 OBJ File: 'untitled.blend'
 # www.blender.org
-mtllib Missile.mtl
+mtllib untitled.mtl
 o node_id3_mesh_id4
 v -5.627378 0.010761 -4.121338
 v -5.640286 -0.034652 -4.121597
