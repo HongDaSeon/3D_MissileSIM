@@ -1,0 +1,23 @@
+function [dpsi_m, dtheta_m, Vm] = fcn(ay_m, az_m, V_m, theta_m)
+
+g = 9.81;
+
+dpsi_m = ay_m/(V_m*cos(theta_m));
+dtheta_m = -(az_m+g*cos(theta_m))/V_m;
+Vm = V_m;
+
+end
+
+
+
+
+
+
+
+function [dx_m, dy_m, dz_m] = fcn(psi_m, theta_m, Vm)
+
+dx_m = Vm*cos(psi_m)*cos(theta_m);
+dy_m = Vm*sin(psi_m)*cos(theta_m);
+dz_m = -Vm*sin(theta_m);
+
+end
